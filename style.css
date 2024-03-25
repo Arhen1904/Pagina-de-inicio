@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(img/fondo.jpg);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ button:hover {
 }
 
 #youtube {
-    background-image: url(imagenes/youtube.png);
+    background-image: url(img/youtube.png);
     background-size: cover;
 }
 
@@ -88,7 +88,7 @@ button:hover {
     position: relative;
     top: 78%;
     right: 30%;
-    background-image: url(imagenes/github.png);
+    background-image: url(img/github.png);
     background-size: 85px 80px;
     background-position: center;
 }
@@ -102,7 +102,7 @@ button:hover {
     position: relative;
     top: 78%;
     right: 10%;
-    background-image: url(imagenes/colorhunt.png);
+    background-image: url(img/colorhunt.png);
     background-size: cover;
     background-position: center;
 }
@@ -116,7 +116,7 @@ button:hover {
     position: relative;
     top: 78%;
     left: 10%;
-    background-image: url(imagenes/alura.png);
+    background-image: url(img/alura.png);
     background-size: cover;
     background-position: center;
 }
@@ -130,27 +130,27 @@ button:hover {
     position: relative;
     top: 78%;
     left: 30%;
-    background-image: url(imagenes/linkedin.png);
+    background-image: url(img/linkedin.png);
     background-size: 190px 100px;
     background-position: center;
 }
 
 #google {
-    background-image: url(imagenes/google.png);
+    background-image: url(img/google.png);
     background-size: cover;
 }
 
 #platzi {
-    background-image: url(imagenes/platzi.png);
+    background-image: url(img/platzi.png);
     background-size: cover;
 }
 
 #twitch {
-    background-image: url(imagenes/twitch.jpg);
+    background-image: url(img/twitch.jpg);
     background-size: cover;
 }
 
 #chatgpt {
-    background-image: url(imagenes/chatgpt.png);
+    background-image: url(img/chatgpt.png);
     background-size: cover;
 }
