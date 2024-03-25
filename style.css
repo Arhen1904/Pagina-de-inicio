@@ -1,0 +1,156 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#reloj {
+    background: linear-gradient(to bottom, #ffffff89 , #00000049);
+    backdrop-filter: blur(5px);
+    width: 20vw;
+    height: 6vw;
+    font-size: 2.5vw;
+    font-family: fantasy;
+    border: none;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 0 5px 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#am-pm {
+    padding-left: 0.5rem;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.666) 0px 0px 20px;
+    display: inline;
+}
+
+main {
+    margin: 2.5vh auto;
+    width: 95vw;
+    height: 95vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4vw;
+    justify-items: center;  
+}
+
+button{
+    width: 80%;
+    height: 100%;
+    padding: 14vw 0 0 0;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-shadow: black 0 0 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5%;
+    box-shadow: inset rgba(0, 0, 0, 0.497) 0 0 20px, rgba(173, 173, 173, 0.204) 0 0 0 10px, black 0 0 20px 1px;
+    transition: all 0.3s;
+}
+
+button:nth-child(1), button:nth-child(7){
+    box-shadow: inset rgba(0, 0, 0, 0.681) 0 0 20px, rgba(41, 97, 116, 0.336) 0 0 0 10px, black 0 0 20px 1px;
+}
+
+button:nth-child(9) {
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale( 1.05, 1.05);
+}
+
+#youtube {
+    background-image: url(imagenes/youtube.png);
+    background-size: cover;
+}
+
+#github {
+    padding: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 78%;
+    right: 30%;
+    background-image: url(imagenes/github.png);
+    background-size: 85px 80px;
+    background-position: center;
+}
+
+#colorhunt {
+    padding: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 78%;
+    right: 10%;
+    background-image: url(imagenes/colorhunt.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#alura {
+    padding: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 78%;
+    left: 10%;
+    background-image: url(imagenes/alura.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#linkedin {
+    padding: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 78%;
+    left: 30%;
+    background-image: url(imagenes/linkedin.png);
+    background-size: 190px 100px;
+    background-position: center;
+}
+
+#google {
+    background-image: url(imagenes/google.png);
+    background-size: cover;
+}
+
+#platzi {
+    background-image: url(imagenes/platzi.png);
+    background-size: cover;
+}
+
+#twitch {
+    background-image: url(imagenes/twitch.jpg);
+    background-size: cover;
+}
+
+#chatgpt {
+    background-image: url(imagenes/chatgpt.png);
+    background-size: cover;
+}
