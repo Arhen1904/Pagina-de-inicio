@@ -11,9 +11,9 @@ body {
 #reloj {
     background: linear-gradient(to bottom, #ffffff89 , #00000049);
     backdrop-filter: blur(5px);
-    width: 20vw;
+    width: 23vw;
     height: 6vw;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
     font-family: fantasy;
     border: none;
     border-radius: 30px;
@@ -59,6 +59,7 @@ button{
     border-radius: 5%;
     box-shadow: inset rgba(0, 0, 0, 0.497) 0 0 20px, rgba(173, 173, 173, 0.204) 0 0 0 10px, black 0 0 20px 1px;
     transition: all 0.3s;
+    background-position: center;
 }
 
 button:nth-child(1), button:nth-child(7){
@@ -83,13 +84,13 @@ button:hover {
     padding: 0;
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     position: relative;
     top: 78%;
     right: 30%;
     background-image: url("https://i.ibb.co/nDmYjbr/github.png");
-    background-size: 85px 80px;
+    background-size: 180% 170%;
     background-position: center;
 }
 
@@ -97,8 +98,8 @@ button:hover {
     padding: 0;
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     position: relative;
     top: 78%;
     right: 10%;
@@ -111,8 +112,8 @@ button:hover {
     padding: 0;
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     position: relative;
     top: 78%;
     left: 10%;
@@ -125,13 +126,13 @@ button:hover {
     padding: 0;
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     position: relative;
     top: 78%;
     left: 30%;
     background-image: url("https://i.ibb.co/TmdxrrS/linkedin.png");
-    background-size: 190px 100px;
+    background-size: 400% 190%;
     background-position: center;
 }
 
