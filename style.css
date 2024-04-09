@@ -47,27 +47,43 @@ main {
     justify-items: center;  
 }
 
-button{
+button {
     width: 80%;
     height: 100%;
-    padding: 14vw 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 50px;
     font-size: 24px;
+    font-weight: 500;
     color: rgb(255, 255, 255);
     text-shadow: black 0 0 9px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     border-radius: 5%;
-    box-shadow: inset rgba(0, 0, 0, 0.497) 0 0 20px, rgba(173, 173, 173, 0.204) 0 0 0 10px, black 0 0 20px 1px;
+    box-shadow: inset rgba(0, 0, 0, 0.8) 0 -50px 20px, rgba(173, 173, 173, 0.204) 0 0 0 10px, black 0 0 20px 1px;
     transition: all 0.3s;
     background-position: center;
+    background-size: cover;
 }
 
-button:nth-child(1), button:nth-child(7){
-    box-shadow: inset rgba(0, 0, 0, 0.681) 0 0 20px, rgba(41, 97, 116, 0.336) 0 0 0 10px, black 0 0 20px 1px;
+#traductor, #gmail, #imgbb, #trello, #github, #colorhunt, #alura, #linkedin {
+    position: relative;
+    top: 6%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 4vw;
+    height: 4vw;
+    box-shadow: inset rgba(0, 0, 0, 0.8) 0 0 20px, rgba(41, 97, 116, 0.336) 0 0 0 10px, black 0 0 20px 1px;
 }
 
-button:nth-child(9) {
-    width: 100%;
+#github, #colorhunt, #alura, #linkedin {
+    top: 78%;
+}
+
+#youtube, #google {
+    box-shadow: inset rgba(0, 0, 0, 0.8) 0 -50px 20px, rgba(41, 97, 116, 0.336) 0 0 0 10px, black 0 0 20px 1px;
 }
 
 button:hover {
@@ -77,81 +93,67 @@ button:hover {
 
 #youtube {
     background-image: url("https://i.ibb.co/ScHg01C/youtube.png");
-    background-size: cover;
+}
+
+#traductor {
+    right: 30%;
+    background-image: url("https://i.ibb.co/74HMWxq/traductor.jpg");
+}
+
+#gmail {
+    right: 10%;
+    background-image: url("https://i.ibb.co/L8cjntJ/gmail.jpg");
+}
+
+#imgbb {
+    left: 10%;
+    background-image: url("https://i.ibb.co/wdPZQkg/imgbb.jpg");
+    background-size: 320% 190%;
+}
+
+#trello {
+    left: 30%;
+    background-image: url("https://i.ibb.co/cDFdScP/trello.png");
+    background-size: 130% 150%;
 }
 
 #github {
-    padding: 0;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 4vw;
-    height: 4vw;
-    position: relative;
-    top: 78%;
     right: 30%;
     background-image: url("https://i.ibb.co/nDmYjbr/github.png");
     background-size: 180% 170%;
-    background-position: center;
 }
 
 #colorhunt {
-    padding: 0;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 4vw;
-    height: 4vw;
-    position: relative;
-    top: 78%;
     right: 10%;
     background-image: url("https://i.ibb.co/Dk4Hm0h/colorhunt.png");
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #alura {
-    padding: 0;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 4vw;
-    height: 4vw;
-    position: relative;
-    top: 78%;
     left: 10%;
     background-image: url("https://i.ibb.co/2c9NnHS/alura.png");
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #linkedin {
-    padding: 0;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 4vw;
-    height: 4vw;
-    position: relative;
-    top: 78%;
     left: 30%;
     background-image: url("https://i.ibb.co/TmdxrrS/linkedin.png");
     background-size: 400% 190%;
-    background-position: center;
 }
 
 #google {
     background-image: url("https://i.ibb.co/kmFrW1S/google.png" );
-    background-size: cover;
 }
 
 #platzi {
     background-image: url("https://i.ibb.co/d2HXG1L/platzi.png");
-    background-size: cover;
-}
+}    
 
 #twitch {
     background-image: url("https://i.ibb.co/QbbTkRK/twitch.jpg");
-    background-size: cover;
+    width: 100%;
 }
 
 #chatgpt {
     background-image: url("https://i.ibb.co/5FzY9vV/chatgpt.png");
-    background-size: cover;
 }
